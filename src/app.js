@@ -38,3 +38,15 @@ themeToggleBtn.addEventListener('click', function() {
     }
     
 });
+
+jQuery(document).ready(function($){
+
+    $('#botao-header').click(function(){
+    $('#header-desktop').css('display','block');
+    });
+    
+    $('#botao-header').blur(function(){
+    $('#header-desktop').css('display','none');
+    })
+    
+    });
